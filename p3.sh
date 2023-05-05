@@ -1,4 +1,3 @@
-# Input from user
 echo "Program To Print Table of Given Numbers"
 read -p "Enter the Nuber :  " n
 
