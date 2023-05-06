@@ -35,7 +35,9 @@ Here are some commonly used advanced commands and filters:
 
 
 8.  xargs: Xargs is a command used for building and executing commands from standard input. 
-    It can be used to execute a command on a list of files, or to execute a command with arguments taken from standard input. It is commonly used for executing complex commands on multiple files or directories.
+    It can be used to execute a command on a list of files, 
+    or to execute a command with arguments taken from standard input. 
+    It is commonly used for executing complex commands on multiple files or directories.
 
 These are just a few examples of the advanced commands and filters available in Linux/UNIX. 
 By mastering these tools, users can perform complex tasks and automate many of their day-to-day operations.
