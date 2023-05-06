@@ -1,7 +1,10 @@
-Shell programming using filters involves the use of various text processing utilities such as grep, egrep, fgrep and sed, to filter and manipulate text data. In this answer, I will focus on the usage of these filters, with examples.
+Shell programming using filters involves the use of various text processing utilities such as 
+grep, egrep, fgrep and sed, to filter and manipulate text data. In this answer, 
+I will focus on the usage of these filters, with examples.
 
 grep:
-Grep (global regular expression print) is a powerful tool that is used to search for specific patterns in text files. The syntax for using grep is:
+Grep (global regular expression print) is a powerful tool that 
+is used to search for specific patterns in text files. The syntax for using grep is:
 
 
 grep [options] pattern [files]
@@ -15,7 +18,8 @@ To search for the word "apple" ignoring the case sensitivity, you can use the "-
 
 grep -i apple myfile.txt
 egrep:
-Egrep (extended grep) is a version of grep that supports extended regular expressions. The syntax for using egrep is similar to grep:
+Egrep (extended grep) is a version of grep that supports extended regular expressions. 
+The syntax for using egrep is similar to grep:
 
 egrep [options] pattern [files]
 For example, to search for all lines in a file containing the words "apple" or "orange", you can use:
@@ -27,15 +31,18 @@ To search for lines containing a word that starts with "a" and ends with "e", yo
 
 egrep '\ba\w*e\b' myfile.txt
 fgrep:
-Fgrep (fixed string grep) is a version of grep that matches fixed strings instead of regular expressions. The syntax for using fgrep is:
+Fgrep (fixed string grep) is a version of grep that matches fixed strings instead of regular expressions. 
+The syntax for using fgrep is:
 
 fgrep [options] pattern [files]
-For example, to search for all lines in a file containing the word "apple" (as a fixed string), you can use:
+For example, to search for all lines in a file containing the word "apple" (as a fixed string), 
+you can use:
 
 
 fgrep apple myfile.txt
 sed:
-Sed (stream editor) is a tool used for editing text files. It can perform various functions such as search and replace, text transformation, and more. The syntax for using sed is:
+Sed (stream editor) is a tool used for editing text files. 
+It can perform various functions such as search and replace, text transformation, and more. The syntax for using sed is:
 
 sed [options] 'command' file
 For example, to replace all occurrences of "apple" with "orange" in a file, you can use:
@@ -46,4 +53,6 @@ To delete all lines in a file containing the word "apple", you can use:
 
 
 sed '/apple/d' myfile.txt
-These are just some examples of how to use filters in shell programming. There are many other filters and options available, and they can be combined together to perform more complex text processing tasks.
+These are just some examples of how to use filters in shell programming. 
+There are many other filters and options available, and 
+they can be combined together to perform more complex text processing tasks.
