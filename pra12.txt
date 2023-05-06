@@ -1,0 +1,35 @@
+nix Shell is a command-line interface (CLI) used in Unix-based operating systems. It provides a way for users to interact with the operating system and execute commands. The shell is a program that takes input from the user via the keyboard and sends it to the operating system for processing.
+
+There are several Unix shells available, including bash, csh, ksh, and zsh. Bash (Bourne-Again SHell) is the most popular shell used in Unix-based systems and is the default shell in most Linux distributions.
+
+Environment variables are used to store information that can be accessed by programs running in the shell. They are set and managed by the shell and can be accessed by any program running in the shell environment.
+
+Some commonly used environment variables in Unix systems include:
+
+PATH: This variable contains a list of directories where the shell looks for executable files. It is used to specify the locations of the programs that can be executed by the shell.
+
+HOME: This variable contains the path to the user's home directory.
+
+USER: This variable contains the name of the current user.
+
+PS1: This variable is used to set the prompt displayed by the shell.
+
+To view the current value of an environment variable, you can use the "echo" command followed by the variable name enclosed in "$" symbols. For example, to view the value of the PATH variable, you can use:
+
+bash
+
+echo $PATH
+To set the value of an environment variable, you can use the "export" command followed by the variable name and its value. For example, to add a new directory to the PATH variable, you can use:
+
+ruby
+
+export PATH=$PATH:/new/directory/path
+This command adds "/new/directory/path" to the existing value of the PATH variable.
+
+In summary, Unix Shell provides a powerful interface for interacting with Unix-based operating systems. Environment variables are used to store information that can be accessed by programs running in the shell. By understanding these concepts, users can effectively use the shell and manipulate the environment to suit their needs.
+
+
+
+
+
+
