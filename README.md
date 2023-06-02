@@ -20,6 +20,7 @@ Practical list
 
 7. Write a menu driven shell script which will print the following menu and execute the given task.
 
+ ```json
     a. Display calendar of current month
 
     b. Display today’s date and time
@@ -30,6 +31,7 @@ Practical list
 
     e. Display your terminal number
 
+ ```
 8. Write a shell script to read n numbers as command arguments and sort them in descending order.
 
 9. Write a shell script to display all executable files, directories and zero sized files from current directory.
