@@ -20,7 +20,7 @@ Practical list
 
 7. Write a menu driven shell script which will print the following menu and execute the given task.
 
- ```json
+ ```c++
     a. Display calendar of current month
     b. Display today’s date and time
     c. Display usernames those are currently logged in the system
